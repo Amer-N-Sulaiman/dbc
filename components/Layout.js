@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import Footer from "./Footer"
 
 
 const Layout = (props) => {
@@ -9,7 +10,7 @@ const Layout = (props) => {
         <div style={{marginTop: '100px'}}>
             { props.children }
         </div>
-        
+        <Footer />
     </div>
         )
 } 
