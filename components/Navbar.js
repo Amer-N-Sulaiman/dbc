@@ -8,6 +8,7 @@ import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Slide from '@mui/material/Slide';
+import Link from 'next/link'
 
 
 function HideOnScroll(props) {
@@ -43,7 +44,7 @@ const Navbar = () => {
                 <AppBar>
                 <Toolbar>
                     <Typography variant="h6" component="div">
-                        Domain Blacklist Checker
+                        <Link href="\">Domain Blacklist Checker</Link>
                     </Typography>
                 </Toolbar>
                 </AppBar>

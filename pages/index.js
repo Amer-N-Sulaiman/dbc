@@ -10,6 +10,7 @@ import Button from '@mui/material/Button';
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
@@ -57,8 +58,8 @@ export default function Home() {
       {checkedOnce && <Grid container justifyContent="space-around">
         <Grid item xs={10} md={6} lg={4}>
           <Box sx={{ minWidth: 275 }}>
-            { !isBlacklisted && <Card variant="outlined" style={{marginTop: '60px', padding: '15px', textAlign: 'center'}}>Your domain is not blacklisted</Card>}
-            { isBlacklisted && <Card variant="outlined" style={{marginTop: '60px', padding: '15px', textAlign: 'center'}}>Your domain is blacklisted</Card>}
+            { !isBlacklisted && <Card variant="outlined" style={{marginTop: '60px', padding: '15px', textAlign: 'center'}}><p>Your domain name is not blacklisted</p> <CheckCircleIcon /></Card>}
+            { isBlacklisted && <Card variant="outlined" style={{marginTop: '60px', padding: '15px', textAlign: 'center'}}>Your domain name is blacklisted</Card>}
           </Box>
         </Grid>
       </Grid>}
