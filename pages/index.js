@@ -39,6 +39,9 @@ export default function Home() {
 
   return (
     <div style={{textAlign: 'center'}}>
+      <Head>
+        <title>Domain Blacklist Checker</title>
+      </Head>
       <Grid container justifyContent="space-around">
         <Grid item xs={10} md={6} lg={4}>
           <h1>Enter A Domain To Check If Blacklisted</h1>

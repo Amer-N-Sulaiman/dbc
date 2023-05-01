@@ -7,7 +7,7 @@ const Layout = (props) => {
     <div>
 
         <Navbar />
-        <div style={{marginTop: '100px'}}>
+        <div style={{marginTop: '100px', minHeight: 'calc(100vh - 144px)'}}>
             { props.children }
         </div>
         <Footer />
