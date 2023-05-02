@@ -44,7 +44,7 @@ const Navbar = () => {
                 <AppBar>
                 <Toolbar>
                     <Typography variant="h6" component="div">
-                        <Link href="\">Domain Blacklist Checker</Link>
+                        <Link href="/">Domain Blacklist Checker</Link>
                     </Typography>
                 </Toolbar>
                 </AppBar>
